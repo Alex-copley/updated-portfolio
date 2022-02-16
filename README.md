@@ -11,7 +11,7 @@ Created portfolio to display projects and resume
 [Questions](#questions)  
 
 # Usage  
-How to use the application: Link to hosted website will be provided in README.md  
+https://alex-copley.github.io/updated-portfolio/
 
 # Contributors  
 Sole Author  
