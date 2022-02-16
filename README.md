@@ -5,21 +5,13 @@
 Created portfolio to display projects and resume  
 
 # Table of contents  
-[Installation](#installation)  
 [Usage](#usage)  
-[License](#license)  
 [Contributors](#contributors)  
-[Tests](#tests)  
+[License](#license)  
 [Questions](#questions)  
-
-# Installation 
-The following dependencies must be installed to use this application: NULL  
 
 # Usage  
 How to use the application: Link to hosted website will be provided in README.md  
-
-# Tests
-Command used to run tests on this application: N/A 
 
 # Contributors  
 Sole Author  
