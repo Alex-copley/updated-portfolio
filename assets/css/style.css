@@ -18,6 +18,11 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.full-page-height {
+    height: 100vh;
+    width: auto;
+}
+
 .logo {
     font-size: 1.6rem;
     letter-spacing: .2rem;
@@ -42,5 +47,13 @@ html, body {
     color: var(--white)
 }
 
+.hero {
+    background-image: url("/assets/images/arch.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 92%;
+}
 
 
