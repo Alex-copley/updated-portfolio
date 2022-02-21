@@ -47,13 +47,82 @@ html, body {
     color: var(--white)
 }
 
-.hero {
-    background-image: url("/assets/images/arch.jpg");
+.hero-img {
+    background-image: linear-gradient(180deg,rgba(255,132,0,.42),rgba(255,132,0,.42)),url("/assets/images/arch.jpg");
     background-position: 50% 50%;
     background-size: cover;
     text-align: center;
     background-repeat: no-repeat;
-    height: 92%;
+    height: 95%;
 }
 
+.hero {
+    display: grid;
+    align-content: center;
+    letter-spacing: .3rem;
+}
+
+.hero-heading {
+    color: var(--white);
+    font-size: 3.1rem;
+    line-height: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgb(25 32 36 / 55%);
+    margin: 10px 20px 10px 20px;
+}
+
+.hero-subheading {
+    color: var(--main-background-color);
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(255 255 255 / 65%);
+    white-space: normal;
+    margin: 10px 20px 10px 20px;
+}
+
+.hero-btn-1 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: #404047;
+    box-shadow: 11px 11px 14px -4px rgba(0,0,0,.34);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    color: #ff8400;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-btn-2 {
+    border-width: 3px;
+    border-color: #fff;
+    border-radius: 4px;
+    background-color: rgba(64,64,71,.5);
+    box-shadow: 8px 13px 14px -4px rgba(0,0,0,.42);
+    -webkit-transition: border .3s,background-color .3s;
+    transition: border .3s,background-color .3s;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    cursor: pointer;
+    mix-blend-mode: normal;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 38px;
+}
 
